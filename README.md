@@ -1,3 +1,7 @@
+![Build](https://snelstart-git.visualstudio.com/SnelStart.B2B.client.net/_apis/build/status/SnelStart.B2B.client.v2.net)
+[![NuGet](https://img.shields.io/nuget/v/SnelStart.B2B.V2.Client.svg)](https://www.nuget.org/packages/SnelStart.B2B.V2.Client/)
+[![NuGet](https://img.shields.io/nuget/dt/SnelStart.B2B.V2.Client.svg)](https://www.nuget.org/stats/packages/SnelStart.B2B.V2.Client?groupby=Version)
+
 # B2B.client.net Version 2
 SnelStart B2B API .NET client version 2.
 
@@ -24,3 +28,6 @@ await client.AuthorizeAsync();
 var kostenplaatsen = await client.Kostenplaatsen.GetAllAsync();
 ````
 
+# NuGet
+This library is available at NuGet:
+https://www.nuget.org/packages/SnelStart.B2B.V2.Client/
