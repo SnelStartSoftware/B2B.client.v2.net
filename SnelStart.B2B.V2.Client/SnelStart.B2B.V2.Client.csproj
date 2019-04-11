@@ -2,12 +2,12 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net452</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/SnelStartSoftware/B2B.client.net</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/SnelStartSoftware/B2B.client.net</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/SnelStartSoftware/B2B.client.net/blob/master/LICENSE.md</PackageLicenseUrl>
-    <PackageIconUrl>https://github.com/SnelStartSoftware/B2B.client.net/raw/master/icon.png</PackageIconUrl>
-    <PackageTags>SnelStart; B2B; Client</PackageTags>
-    <Description>The SnelStart B2B API .NET client is an open source client library for the SnelStart B2B API.</Description>
+    <RepositoryUrl>https://github.com/SnelStartSoftware/B2B.client.v2.net</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SnelStartSoftware/B2B.client.v2.net</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/SnelStartSoftware/B2B.client.v2.net/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/SnelStartSoftware/B2B.client.v2.net/raw/master/icon.png</PackageIconUrl>
+    <PackageTags>SnelStart; B2B; Client V2</PackageTags>
+    <Description>The SnelStart B2B API .NET client V2 is an open source client library for the SnelStart B2B API V2.</Description>
     <Company>SnelStart Software B.V.</Company>
     <Authors>SnelStart Software B.V.</Authors>
     <Copyright>(c) 2018 SnelStart Software B.V.</Copyright>
