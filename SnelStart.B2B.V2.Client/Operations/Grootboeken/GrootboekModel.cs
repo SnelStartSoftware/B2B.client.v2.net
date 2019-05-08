@@ -60,7 +60,7 @@ namespace SnelStart.B2B.V2.Client.Operations
         public RgsModel[] RgsCode { get; set; }
 
         /// <summary>
-        /// De toegestande btwsoorten van het grootboek.
+        /// De toegestane btwsoorten van het grootboek.
         /// </summary>
         public BtwSoortModel[] BtwSoort { get; set; }
     }
