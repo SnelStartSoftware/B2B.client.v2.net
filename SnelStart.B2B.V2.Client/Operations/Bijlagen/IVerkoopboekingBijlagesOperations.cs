@@ -1,6 +1,6 @@
 namespace SnelStart.B2B.V2.Client.Operations
 {
-    public interface IVerkoopboekingBijlagesOperations : IGetAllOperationsWithParent<VerkoopBoekingBijlageContentModel>, ICrudOperationsWithParent<VerkoopBoekingBijlageContentModel>
+    public interface IVerkoopboekingBijlagesOperations : IGetAllOperationsWithParent<VerkoopBoekingBijlageContentModel>, ICrudOperations<VerkoopBoekingBijlageContentModel>
     {
     }
 }

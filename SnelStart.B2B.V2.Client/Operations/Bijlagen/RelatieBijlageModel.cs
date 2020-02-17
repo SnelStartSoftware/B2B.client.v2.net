@@ -5,12 +5,8 @@ namespace SnelStart.B2B.V2.Client.Operations
     /// <summary>
     /// 
     /// </summary>
-    public abstract class RelatieBijlageModel : IdentifierModel
+    public abstract class RelatieBijlageModel : DocumentModel
     {
-        /// <summary>
-        /// Geeft de naam van deze gegevenscontainer terug.
-        /// </summary>
-        public const string ResourceName = "relaties/{RelatieId}/bijlagen";
         /// <summary>
         /// 
         /// </summary>
@@ -23,17 +19,8 @@ namespace SnelStart.B2B.V2.Client.Operations
         /// </summary>
         protected override string Resource()
         {
-            return $"relaties/{RelatieId}/bijlagen";
+            return $"documenten/{Id}";
         }
 
-        /// <summary>
-        /// De public identifier van de gekoppelde relatie.
-        /// </summary>
-        public Guid RelatieId { get; set; }
-
-        /// <summary>
-        /// De naam van de bijlage.
-        /// </summary>
-        public string FileName { get; set; }
     }
 }
