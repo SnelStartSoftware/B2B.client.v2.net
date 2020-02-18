@@ -5,12 +5,8 @@ namespace SnelStart.B2B.V2.Client.Operations
     /// <summary>
     /// 
     /// </summary>
-    public abstract class VerkoopBoekingBijlageModel : IdentifierModel
+    public abstract class VerkoopBoekingBijlageModel : DocumentModel
     {
-        /// <summary>
-        /// Geeft de naam van deze gegevenscontainer terug.
-        /// </summary>
-        public const string ResourceName = "verkoopboekingen/{VerkoopBoekingId}/bijlagen";
         /// <summary>
         /// 
         /// </summary>
@@ -23,22 +19,7 @@ namespace SnelStart.B2B.V2.Client.Operations
         /// </summary>
         protected override string Resource()
         {
-            return $"verkoopboekingen/{VerkoopBoekingId}/bijlagen";
+            return $"documenten/{Id}";
         }
-
-        /// <summary>
-        /// De public identifier van de gekoppelde verkoopboeking.
-        /// </summary>
-        public Guid VerkoopBoekingId { get; set; }
-
-        /// <summary>
-        /// De naam van de bijlage.
-        /// </summary>
-        public string FileName { get; set; }
-
-        /// <summary>
-        /// De bijlage is alleen-lezen.
-        /// </summary>
-        public bool ReadOnly { get; set; }
     }
 }
