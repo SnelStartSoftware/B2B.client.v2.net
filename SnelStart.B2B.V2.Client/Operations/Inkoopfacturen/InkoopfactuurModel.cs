@@ -49,5 +49,10 @@ namespace SnelStart.B2B.V2.Client.Operations
         /// Het totaal bedrag van de factuur
         /// </summary>
         public decimal FactuurBedrag { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public InkoopboekingIdentifierModel Inkoopboeking { get; set; }
     }
 }
