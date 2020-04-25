@@ -66,6 +66,7 @@
         Kruisposten = 112,
         ContanteBetaling = 120,
         ElectronischeBetaling = 121,
-        Winstboeking = 130
-    }
+        Winstboeking = 130,
+        BtwPriveAfteDragen = 131
+  }
 }
