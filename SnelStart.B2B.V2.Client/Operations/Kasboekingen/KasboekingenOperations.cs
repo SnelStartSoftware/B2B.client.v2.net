@@ -1,12 +1,12 @@
-﻿using System.Threading;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace SnelStart.B2B.V2.Client.Operations
 {
-    internal class KasboekingenOperations : CrudOperationsBase<GrootboekModel>, IKasboekingenOperations
+    internal class KasboekingenOperations : CrudOperationsBase<KasboekingModel>, IKasboekingenOperations
     {
         public KasboekingenOperations(ClientState clientState)
-            : base(clientState, GrootboekModel.ResourceName)
+            : base(clientState, KasboekingModel.ResourceName)
         { }
 
         public Task<Response<KasboekingModel[]>> GetAllAsync() => GetAllAsync(CancellationToken.None);
