@@ -1,11 +1,9 @@
-﻿using System;
-
-namespace SnelStart.B2B.V2.Client.Operations
+﻿namespace SnelStart.B2B.V2.Client.Operations
 {
     /// <summary>
     /// De gegevenscontainer voor een relatie.
     /// </summary>
-    public class AdresModel: IdentifierModel
+    public class AdresModel : IdentifierModel
     {
         /// <summary>
         /// Geeft de naam van deze gegevenscontainer terug.
@@ -25,9 +23,9 @@ namespace SnelStart.B2B.V2.Client.Operations
         public string Contactpersoon { get; set; }
 
         /// <summary>
-        /// De straatnaam (inclusief huisnummer).
+        /// Het adres.
         /// </summary>
-        public string Straat { get; set; }
+        public string Adres { get; set; }
 
         /// <summary>
         /// De postcode van het adres.
