@@ -34,6 +34,7 @@ namespace SnelStart.B2B.V2.Client
         public IArtikelomzetgroepenOperations Artikelomzetgroepen { get; }
         public IArtikelenOperations Artikelen { get; }
         public IVerkoopordersOperations Verkooporders { get; }
+        public IVerkooporderSjablonenOperations VerkooporderSjablonen { get; }
 
         public B2BClient(Config config)
         {
@@ -68,6 +69,7 @@ namespace SnelStart.B2B.V2.Client
             Artikelomzetgroepen = new ArtikelomzetgroepenOperations(_clientState);
             Artikelen = new ArtikelenOperations(_clientState);
             Verkooporders = new VerkoopordersOperations(_clientState);
+            VerkooporderSjablonen = new VerkooporderSjablonenOperations(_clientState);
         }
 
         private static void ConfigureServicePointManager(Config config)
