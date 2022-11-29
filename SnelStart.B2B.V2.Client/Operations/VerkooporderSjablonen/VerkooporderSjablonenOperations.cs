@@ -7,7 +7,7 @@ namespace SnelStart.B2B.V2.Client.Operations
     class VerkooporderSjablonenOperations : CrudOperationsBase<VerkooporderSjabloonModel>, IVerkooporderSjablonenOperations
     {
         public VerkooporderSjablonenOperations(ClientState clientState)
-            : base(clientState, VerkooporderModel.ResourceName)
+            : base(clientState, VerkooporderSjabloonModel.ResourceName)
         { }
 
         public Task<Response<VerkooporderSjabloonModel[]>> GetAllAsync() => GetAllAsync(CancellationToken.None);
