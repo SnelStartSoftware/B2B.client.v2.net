@@ -109,5 +109,10 @@ namespace SnelStart.B2B.V2.Client.Operations
         /// </summary>
         public VerkoopFactuurModel Verkoopfactuur { get; set; }
 
+        /// <summary>
+        /// Het <see cref="VerkooporderSjabloonModel"/> dat bij deze order hoort
+        /// </summary>
+        public VerkooporderSjabloonModel VerkooporderSjabloon { get; set; }
+
     }
 }
